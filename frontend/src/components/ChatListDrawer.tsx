@@ -21,6 +21,7 @@ import {
   PiShareNetwork,
   PiTrash,
   PiX,
+  PiUsersThree,
 } from 'react-icons/pi';
 import { PiCircleNotch } from 'react-icons/pi';
 import useConversation from '../hooks/useConversation';
