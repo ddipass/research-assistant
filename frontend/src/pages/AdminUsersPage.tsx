@@ -2,7 +2,7 @@ import { twMerge } from 'tailwind-merge';
 import { useTranslation } from 'react-i18next';
 import { PiArrowDown } from 'react-icons/pi';
 import { addDate, formatDate } from '../utils/DateUtils';
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import Help from '../components/Help';
 import Button from '../components/Button';
 import InputText from '../components/InputText';
