@@ -10,7 +10,6 @@ type Props = BaseProps & {
     available: boolean;
     isAccurate: boolean;
   };
-  onClick: (botId: string) => void;
   children: ReactNode;
 };
 
