@@ -33,7 +33,7 @@ const ListItemUser: React.FC<Props> = (props) => {
         </div>
         <div className="mt-1 overflow-hidden text-ellipsis text-xs">
           {props.user.description}
-        </div>}
+        </div>
       </div>
       <div className="absolute right-0 flex h-full justify-between ">
         <div className="w-10 bg-gradient-to-r from-transparent to-aws-paper"></div>
