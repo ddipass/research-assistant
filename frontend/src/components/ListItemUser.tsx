@@ -15,7 +15,6 @@ type Props = BaseProps & {
 };
 
 const ListItemUser: React.FC<Props> = (props) => {
-  const { t } = useTranslation();
   return (
     <div
       key={props.user.id}
