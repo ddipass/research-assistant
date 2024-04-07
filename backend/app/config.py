@@ -19,7 +19,7 @@ class EmbeddingConfig(TypedDict):
 # Adjust the values according to your application.
 # See: https://docs.anthropic.com/claude/reference/complete_post
 GENERATION_CONFIG: GenerationConfig = {
-    "max_tokens": 2000,
+    "max_tokens": 4096,
     "top_k": 250,
     "top_p": 0.999,
     "temperature": 0.6,
