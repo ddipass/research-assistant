@@ -59,7 +59,7 @@
     ],
     "identityProviders": [],
     "userPoolDomainPrefix": "",
-    "allowedSignUpEmailDomains": ["amazon.com"],
+    "allowedSignUpEmailDomains": [],
     "autoJoinUserGroups": ["CreatingBotAllowed"],
     "selfSignUpEnabled": true,
     "publishedApiAllowedIpV4AddressRanges": ["0.0.0.0/1", "128.0.0.0/1"],
@@ -72,6 +72,7 @@
       "start": {}
     },
     "embeddingContainerVcpu": 2048,
-    "embeddingContainerMemory": 4096
+    "embeddingContainerMemory": 4096,
+    "natgatewayCount": 2
   }
 }
